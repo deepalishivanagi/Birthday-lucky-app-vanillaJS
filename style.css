@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Rubik:wght@400;700&display=swap');
+:root{
+    --primary-color: #075985;
+    --secondary-color: #67e8f9;
+}
+body{
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    background-color:var(--primary-color) ;
+    color: var(--secondary-color);
+
+}
+input{
+    padding: 0.5rem;
+    margin:1rem 1rem;
+    width: 10%;
+    border: 0.15rem solid var(--secondary-color);
+    background-color: var(--primary-color);
+    font-family: inherit;
+}
+button{
+    width: 5%;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.3rem;
+    border: 0.15rem solid var(--secondary-color);
+    border-radius: 00.5rem;
+    background-color: var(--primary-color);
+    font-family: inherit;
+    color: var(--secondary-color);
+}
+p{
+    padding: 0.5rem 0.5rem;
+    /* width: 25%;
+    height: 15%;
+    border: 0.15rem solid var(--secondary-color);
+    background-color: var(--primary-color); */
+    color: var(--secondary-color);
+    font-family: inherit;
+    font-size: 1.15rem;
+}
