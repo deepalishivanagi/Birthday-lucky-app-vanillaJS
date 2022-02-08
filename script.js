@@ -6,18 +6,20 @@ var sum=0;
 
 function CheckLuck(){
     // console.log(typeof(birthDate.value));
-   
     var bdate=birthDateis(birthDate.value);
     var add=sumofDate(bdate);
-    if(add%(luckyNumber.value)===0){
-        // console.log("hello"); always try to check in console whether the function is working correctly or not while programming.
-        output.innerHTML="Yay...your birthday is a lucky number!!😀";
+    if(birthDate.value&&luckyNumber.value){
+        if(add%(luckyNumber.value)===0){
+            // console.log("hello"); always try to check in console whether the function is working correctly or not while programming.
+            output.innerHTML="Yay...your birthday is a lucky number!!😀";
+        }
+        else{
+            output.innerHTML="Sad...not a lucky number 🙁 ! But it's okay keep believing on you. ✌️";
+        }
     }
     else{
-        output.innerHTML="Sad...not a lucky number 🙁 ! But it's okay keep believing on you. ✌️";
-    }
-  
-    
+        output.innerHTML="Please enter both the fields 😈";
+    }  
 }
 
 function birthDateis(olddate){
