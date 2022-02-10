@@ -13,13 +13,13 @@ body{
 input{
     padding: 0.5rem;
     margin:1rem 1rem;
-    width: 15%;
+    width: 25%;
     border: 0.15rem solid var(--secondary-color);
     background-color: var(--primary-color);
     font-family: inherit;
 }
 button{
-    width: 5%;
+    width: 8%;
     margin-bottom: 1rem;
     padding: 0.3rem 0.3rem;
     border: 0.15rem solid var(--secondary-color);
@@ -28,6 +28,23 @@ button{
     font-family: inherit;
     color: var(--secondary-color);
 }
+@media (max-width: 300px){
+    input {
+        width: 50%;
+    }
+    button{
+        width: 20%;
+    }
+}
+@media (max-width: 600px){
+    input {
+        width: 43%;
+    }
+    button{
+        width: 15%;
+    }
+}
+
 p{
     padding: 0.5rem 0.5rem;
     color: var(--secondary-color);
