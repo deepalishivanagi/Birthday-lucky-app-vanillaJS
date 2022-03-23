@@ -12,7 +12,7 @@ function CheckLuck() {
             // console.log("hello"); always try to check in console whether the function is working correctly or not while programming.
             output.innerHTML = "Yay...your birthday is a lucky number!!😀";
         } else {
-            output.innerHTML = "Sad...not a lucky number 🙁 ! But it's okay keep believing on you. ✌️";
+            output.innerHTML = "Sad...not a lucky number 🙁 ! But it's okay keep believing in you. ✌️";
         }
     } else {
         output.innerHTML = "Please enter both the fields 😈";
